@@ -39,7 +39,7 @@ class Main {
         System.out.println(choice);
         if (choice.equals("G")) {
           choice = teacher.changeGrade(sc);
-          System.out.println(choice);
+          System.out.println("choice " + choice);
         } else if (choice.equals("V")) {
           choice = teacher.viewGrade(sc);
           System.out.println(choice);
